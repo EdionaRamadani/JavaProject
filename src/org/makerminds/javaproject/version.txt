@@ -1,0 +1,33 @@
+Java Project Setup Documentation | GIT Work 
+Ediona Ramadani MMKS
+
+1.Signed up on GitHub using my MakerMinds email. 
+
+2.Created a new repository named JavaProject.
+
+3.Cloned the repository using the URL: https://github.com/EdionaRamadani/JavaProject.git.
+
+4.Created a new Java project in Eclipse IDE.
+Selected the cloned directory as the project location.
+Added Main.java file.
+
+5.Went to Tools > Options > Authentication.
+Removed any stored credentials for personal GitHub accounts.
+Added and authenticated my work GitHub account using OAuth.
+
+6.Went to Repository > Repository Settings in SourceTree.
+Edited the remote URL to https://github.com/EdionaRamadani/JavaProject.git.
+
+7.Staged all changes.
+Wrote a commit message: "Initial commit with Java project files".
+Clicked on Commit.
+Pushed the changes by clicking Push, ensuring the remote was set to origin and the branch to main.
+
+-> Additional notes that might help someone in the future 
+
+Cleared Git credentials from Windows Credential Manager to ensure the correct account was used.
+
+-> Some troubleshooting (a lot of troubleshooting)
+Encountered permission issues due to incorrect credentials.
+Cleared stored credentials and re-authenticated with the correct work GitHub account.
+Ensured the remote URL was correctly set to the work repository.
